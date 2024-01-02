@@ -1,0 +1,2 @@
+#!/bin/bash
+python3 -m py_compile "$PYFILE" #generate bytecode in __pycahe__ directory
