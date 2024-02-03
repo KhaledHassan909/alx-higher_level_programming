@@ -10,10 +10,10 @@ else:
     last_digit = number % -10
 
 if last_digit > threshold:
-    print("Last digit of {:d} is {:d} and is greater than {:d}".format(
+    print("Last digit of {} is {} and is greater than {}".format(
         number, last_digit, threshold))
 elif last_digit == 0:
-    print("Last digit of {:d} is {:d} and is 0".format(number, last_digit))
+    print("Last digit of {} is {} and is 0".format(number, last_digit))
 else:
-    print("Last digit of {:d} is {:d} and is less than {:d} and not 0".format(
+    print("Last digit of {} is {} and is less than {} and not 0".format(
         number, last_digit, threshold + 1))
