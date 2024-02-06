@@ -9,4 +9,3 @@ for i in range(0, 9):
             break
         if j > i and flag == 0:
             print("{}{}".format(i, j), end=', ')
-        
