@@ -2,8 +2,8 @@
 
 def uppercase(s):
     for i in s:
-        dec_value = ord(i)  # decimal value
+        dec_value = ord(i)  # decimal value of current char
         if dec_value >= 97 and dec_value <= 122:  # check if current char is lowercase
             dec_value -= 32  # convert lowercase to uppercase
-        print("{}".format(chr(dec_value)), end ='')  # print uppercase
+        print("{}".format(chr(dec_value)), end ="")  # print uppercase
     print("{}".format(''), end = '\n')
