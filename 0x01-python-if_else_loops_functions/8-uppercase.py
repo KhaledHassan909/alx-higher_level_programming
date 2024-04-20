@@ -6,8 +6,6 @@ def uppercase(str):
         print("{}".format(i), end="")
     print()
 
-
-#!/usr/bin/python3
 # def uppercase(s):
 #     for i in s: #Looping through chars
 #         dec_value = ord(i)  # decimal value of current char
