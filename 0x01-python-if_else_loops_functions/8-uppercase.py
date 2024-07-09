@@ -1,11 +1,8 @@
 #!/usr/bin/python3
 
 def uppercase(s):
-    for i in s: #Looping through chars
-        dec_value = ord(i)  # decimal value of current char
-        if dec_value >= 97 and dec_value <= 122:  # check if current char is lowercase
-            i = chr(dec_value - 32)  # convert lowercase to uppercase
-        print("{}".format(i), end = '')  # print uppercase
-
-s = "best school 98"
-uppercase(s)
+    for i in s:  # Looping through chars
+        dec_value = ord(i)  # Decimal value of current char
+        if 97 <= dec_value <= 122:  # Check if current char is lowercase
+            i = chr(dec_value - 32)  # Convert lowercase to uppercase
+        print("{}".format(i), end='')  # Print uppercase
