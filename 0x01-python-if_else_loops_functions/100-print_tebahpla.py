@@ -5,4 +5,7 @@ def print_characters():
         char_used = chr(i)
         if i % 2 != 0:
             char_used = chr(i - 32)
-        print("{}".format(char_used), end = '')
+        print("{}".format(char_used), end='')
+
+
+print_characters()
