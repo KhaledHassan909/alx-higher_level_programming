@@ -2,7 +2,9 @@
 
 def print_characters():
     for i in range(122, 96, -1):
-        if i % 2 == 0:
-            print(chr(i), end="")
-        else:
-            print(chr(i - 32), end="")
+        char_used = chr(i)
+        if i % 2 != 0:
+            char_used = chr(i - 32)
+        print("{}".format(char_used), end = '')
+
+print_characters()
