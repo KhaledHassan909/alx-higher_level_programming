@@ -8,3 +8,4 @@ def uppercase(s):
             i = chr(dec_value - 32)  # Convert lowercase to uppercase
         result.append(i)
     print("{}".format("".join(result)))  # Print uppercase
+    
